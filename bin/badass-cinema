@@ -1,0 +1,7 @@
+#!/usr/bin/env ruby
+# encoding: UTF-8
+badass_cinema_path = File.expand_path('../../lib', __FILE__)
+$:.unshift(badass_cinema_path)
+
+require "badass_cinema/cli"
+BadassCinema::CLI.start ARGV
