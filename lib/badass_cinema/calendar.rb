@@ -3,6 +3,7 @@ require 'net/http'
 
 require 'chronic'
 
+require 'badass_cinema'
 require 'badass_cinema/model/film'
 require 'badass_cinema/model/session'
 
