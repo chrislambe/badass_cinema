@@ -6,7 +6,7 @@ require 'chronic'
 require 'badass_cinema/model/film'
 require 'badass_cinema/model/session'
 
-module BadassCinema::DataSource
+module BadassCinema
   class Calendar
     ENDPOINT = "http://tix4.drafthouse.com/adcWSVistaITJson/CinemaCalendar.aspx"
     CALLBACK = "tix.calendarLinks"

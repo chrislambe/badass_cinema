@@ -1,4 +1,4 @@
-require 'badass_cinema/data_source/calendar'
+require 'badass_cinema/calendar'
 require 'badass_cinema/cli/command/base'
 
 module BadassCinema::CLI::Command
@@ -8,7 +8,7 @@ module BadassCinema::CLI::Command
       super
       @option_parser.banner = <<-EOT
 ## Usage
-badass-cinema calendar [options]
+badass-cinema calendar [args]
 
 ## Valid cinema names:
 #{BadassCinema::CINEMAS.collect {|k,v| " #{k}"}.join("\n")}
@@ -55,7 +55,7 @@ EOT
       output = String.new
       cinemas.each do |cinema|
         cinema_data = BadassCinema::CINEMAS[cinema]
-        calendar = BadassCinema::DataSource::Calendar.new cinema
+        calendar = BadassCinema::Calendar.new cinema
 
         output += "\n#{cinema_data[:name]}\n"
         cinema_data[:name].length.times {output += '-'}

@@ -34,7 +34,7 @@ module BadassCinema
     def self.help
       <<-EOT
 ## Usage
-badass-cinema COMMAND [ARGS]
+badass-cinema COMMAND [args]
 
 ### Commands
 For help about a specific command, run badass-cinema COMMAND.
