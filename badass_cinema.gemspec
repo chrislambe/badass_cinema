@@ -17,7 +17,6 @@ Gem::Specification.new do |gem|
 
   # Dependencies
   gem.add_dependency      "rake", "~> 10.0.3"
-  gem.add_dependency      "rspec", "~> 2.12.0"
   gem.add_dependency      "chronic", "~> 0.9.0"
   gem.add_dependency      "colored", "~> 1.2"
 end
