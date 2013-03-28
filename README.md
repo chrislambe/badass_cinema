@@ -61,7 +61,7 @@ Filter the results by title. Gets converted to a regex for the time being, until
 Right now this library only returns data about the Drafthouse calendar. That fulfills the need that pushed me to create this gem. If you'd like to see other Alamo Drafthouse data sources made available through this library, let me know!
 
 ## License
-The Badass Cinema library is released under the [MIT License][mit-license]
+The Badass Cinema library is released under the [MIT License][mit-license].
 
 [chronic]: https://github.com/mojombo/chronic
 [mit-license]: http://www.opensource.org/licenses/MIT
