@@ -9,7 +9,7 @@ require 'badass_cinema/model/session'
 
 module BadassCinema
   class Calendar
-    ENDPOINT = "http://tix4.drafthouse.com/adcWSVistaITJson/CinemaCalendar.aspx"
+    ENDPOINT = "http://feeds.drafthouse.com/adcshowtimeJson/CinemaCalendar.aspx"
     CALLBACK = "tix.calendarLinks"
 
     attr_reader :films,:sessions
